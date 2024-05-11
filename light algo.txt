@@ -1,0 +1,17 @@
+condition A (red):
+c-a (open)
+c-b(need)
+b-c(need)
+c-a()
+
+condition B (red):
+c-a (open)
+c-b (need)
+a-b (open)
+a-c (need)
+
+condition C (red):
+b-c (open)
+b-a (need)
+a-c (need)
+a-b (open)
